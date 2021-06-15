@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'DotGothic16', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+#logo {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    width: 20%;
+    min-width: 174px;
+}
+
+.context {
+    font-size: 1.5rem;
+}
+
+.register {
+    display: inline-block;
+    margin: 0 20px 0 20px;
+}
+
+.login {
+    display: inline-block;
+    margin: 0 20px 0 20px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(33,117,155);
+}
+  
+a:active {
+    color: black;
+}
+
+
+button {
+    margin-top: 5px;
+    background-color: rgb(33,117,155);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 80px;
+    height: 25px;
+    font-size: 1rem;
+}
+
+.success {
+    text-align: center;
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.error {
+    text-align: center;
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
